@@ -1,0 +1,40 @@
+#map {
+    height: 80vh;
+    margin-top: 4rem;
+}
+
+#searchBar {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 1000;
+    padding: 10px;
+    width: 300px;
+}
+
+#suggestionsContainer {
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    z-index: 1000000;
+    background-color: white;
+    border: 1px solid #ccc;
+    width: 300px;
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+#suggestionsList {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#suggestionsList li {
+    padding: 10px;
+    cursor: pointer;
+}
+
+#suggestionsList li:hover {
+    background-color: #f0f0f0;
+}

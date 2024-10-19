@@ -1,0 +1,26 @@
+[
+    {
+        "lat": 47.220097,
+        "lon": -1.5494752,
+        "name": "Game Over",
+        "addr:street": "",
+        "addr:housenumber": "",
+        "addr:postcode": "",
+        "addr:city": "",
+        "website": "",
+        "phone": "",
+        "opening_hours": "We-Sa 17:00-02:00, Mo,Tu 17:00-01:00"
+    },
+    {
+        "lat": 47.2148834,
+        "lon": -1.55526640,
+        "name": "Le Sur-Mesure",
+        "addr:street": "Rue Beauregard",
+        "addr:housenumber": "15",
+        "addr:postcode": "44000",
+        "addr:city": "Nantes",
+        "website": "",
+        "phone": "",
+        "opening_hours": "Mo-Sa 16:30-02:00; Su 17:00-00:30"
+    }
+]

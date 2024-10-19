@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bars à Nantes</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+</head>
+
+<body>
+    <div id="search-bar">
+        <input id="searchBar" type="text" placeholder="Rechercher un bar..." onkeyup="handleAutocomplete(this.value)"
+            autocomplete="off">
+        <div id="suggestionsContainer" style="display: none;">
+            <ul id="suggestionsList"></ul>
+        </div>
+    </div>
+
+    <div id="map"></div>
+
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+    <script src="js/translateOpeningHours.js"></script>
+    <script src="js/autocomplete.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
